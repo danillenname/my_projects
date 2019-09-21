@@ -9,6 +9,6 @@ void *memset(void *destination, int c, size_t n)
 	ptr = (char *)destination;
 	while (n-- > 0)
 	{
-		ptr[i++] = c;
+		*(ptr++) = c;
 	}
 }

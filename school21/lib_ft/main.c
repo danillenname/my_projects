@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-void *memset (void *destination, int c, size_t n);
+void *ft_memcpy(void *dst, const void *src, size_t n);
 
 int main()
 {
-	unsigned char src[15] = "1234567890";
- 
+	char *src = "asss";
+   char *dst;
    // Заполняем массив символом ‘1’
-   memset (src, 56, 14);
+   memcpy (dst, src, 4);
 
    // Вывод массива src на консоль
-   printf ("src: %s\n", src);
+   printf ("src: %s\n", dst);
 }
