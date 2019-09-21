@@ -6,4 +6,6 @@ int main(int argc, char **argv)
 	while (n < 3)
 		printf("%d", n++);
 	printf("\t%d\t%s", argc, argv[2]);
+	if (1)
+		printf("do some changes");
 }
