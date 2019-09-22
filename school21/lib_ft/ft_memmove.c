@@ -1,6 +1,6 @@
 #include <string.h>
 
-void *memmove(void *dst, const void *src, size_t count)
+void *ft_memmove(void *dst, const void *src, size_t count)
 {
 	char *ptr;
 	const char *ptr2;
